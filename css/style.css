@@ -9,10 +9,13 @@ body{
     font-family: 'Lato', sans-serif;
     width: 100%;
     min-height: 100vh;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    overflow: hidden;
 }
 
 .card {
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     width: 400px;
     height: 600px;
     perspective: 1000px;
